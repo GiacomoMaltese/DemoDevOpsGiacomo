@@ -160,6 +160,4 @@ Outputs:
     Description: Endpoint del bilanciatore
     Value: !GetAtt MyLoadBalancer.DNSName
 
-  MyAutoScalingGroup:
-    Value: !Ref MyAutoScalingGroup
-    Description: Auto Scaling Group for the application instances
+
